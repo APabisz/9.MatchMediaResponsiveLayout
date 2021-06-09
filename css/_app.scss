@@ -1,0 +1,49 @@
+.app {
+
+  &__description {
+    padding: $main-spacing 0;
+  }
+
+  &__title {
+    margin-top: $main-spacing /2;
+
+  }
+
+  &__values {
+    margin-bottom: $main-spacing;
+  }
+
+}
+
+table {
+  width: 100%;
+
+  thead {
+    border-bottom: 2px solid darken($color-primary, 10%);
+    color: #fff;
+    background-color: $color-primary;
+  }
+
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  th,
+  td {
+    padding: $main-spacing /4;
+    text-align: center;
+  }
+}
+
+ul {
+  li {
+    margin-bottom: $main-spacing /2;
+    padding-bottom: $main-spacing /2;
+    border-bottom: 1px solid $color-primary;
+  }
+
+  li>* {
+    padding: ($main-spacing /8) 0;
+    letter-spacing: .5px;
+  }
+}
